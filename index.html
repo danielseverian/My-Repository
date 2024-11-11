@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS Host Service</title>
+    <!-- icones -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estilos -->
+     <link rel="stylesheet" href="CSS/styles.css">
+ </head>
+ <body>
+   <div class="container">
+    <div class="navbar-container">
+        <nav>
+            <a href="#">
+              <img src="IMG/hdchostlogo.png" alt="hDC Host" class="logo">   
+            </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Preços</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="#" class="default-btn">Entrar</a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+      <main>
+        <div class="main-banner">
+            <h1>DAS Host Services</h1>
+            <p>Oferecemos serviços incomparáveis em hospedagem, venha conferir!</p>
+        </div>
+        <section class="services-container">
+            <ul>
+                <li>
+                   <i class="fas fa-shield-alt"></i>
+                   <h3>Segurança</h3>
+                   <p>
+                    Sua tranquilidade online garantida! Nossa hospedagem oferece segurança robusta com firewall de última geração, proteção contra ataques DDoS, certificados SSL para criptografia de dados e backups automáticos. Mantenha seu site protegido 24/7 com monitoramento contínuo. Confiabilidade e proteção em um só lugar. 🚀🔒
+                    </p>
+                </li>
+                <li>
+                    <i class="fas fa-rocket"></i>
+                    <h3>Performance</h3>
+                    <p>
+                        Desempenho inigualável! Nossa hospedagem oferece servidores rápidos e otimizados para garantir o máximo desempenho do seu site. Com tecnologia de ponta, tempo de carregamento reduzido e escalabilidade instantânea, seu site estará sempre um passo à frente. Desfrute de uma experiência de navegação fluida e eficiente. 🚀⚡
+                     </p>
+                 </li>
+                 <li>
+                    <i class="fas fa-comments"></i>
+                    <h3>Suporte 24/7</h3>
+                    <p>
+                        Sempre ao seu lado! Nosso serviço de hospedagem oferece suporte 24 horas por dia, 7 dias por semana, para garantir que você nunca fique na mão. Nossa equipe especializada está sempre disponível para resolver qualquer problema e responder a todas as suas dúvidas. Conte com assistência imediata e contínua. 📞💬
+                     </p>
+                 </li>
+            </ul>
+
+        </section>
+        <section class="pricing-container">
+           <h2>Planos e Preços</h2>
+           <p>Encontre o melhor plano para o seu projeto</p> 
+           <div class="plans-container">
+            <div class="plan">
+                <ul>
+                    <li class="price">R$15/mês</li>
+                    <li class="plan-name">Básico</li>
+                    <li class="top-border">2GB de espaço</li>
+                    <li>1 Subdomínio</li>
+                    <li>25 contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li class="bottom-border">Suporte 24/7</li>
+                    <li class="plan-btn">Saiba mais</li>
+                </ul>
+            </div>
+            <div class="plan">
+                <ul>
+                    <li class="price">R$30/mês</li>
+                    <li class="plan-name">Dedicado</li>
+                    <li class="top-border">5GB de espaço</li>
+                    <li>10 Subdomínios</li>
+                    <li>50 contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li class="bottom-border">Suporte 24/7</li>
+                    <li class="plan-btn">Saiba mais</li>
+                </ul>
+            </div>
+            <div class="plan">
+                <ul>
+                    <li class="price recommended">R$50/mês</li>
+                    <li class="plan-name">Dedicado Plus</li>
+                    <li class="top-border">10GB de espaço</li>
+                    <li>10 Subdomínios</li>
+                    <li>100 contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li class="bottom-border">Suporte 24/7</li>
+                    <li class="plan-btn recommended">Saiba mais</li>
+                </ul>
+            </div>
+            <div class="plan">
+                <ul>
+                    <li class="price">R$100/mês</li>
+                    <li class="plan-name">Cloud</li>
+                    <li class="top-border">20GB de espaço</li>
+                    <li>10 Subdomínios</li>
+                    <li>150 contas de e-mail</li>
+                    <li>C-panel</li>
+                    <li class="bottom-border">Suporte 24/7</li>
+                    <li class="plan-btn">Saiba mais</li>
+                </ul>
+            </div>
+           </div>
+        </section>
+        <section class="searchdomain-container">
+            <h2>Escolha um nome que faça sentido para o seu projeto!</h2>
+            <p>Verifique se o domínio está disponível</p>
+            <form>
+                <input type="text" name="domain" id="domain" placeholder="Digite aqui o domínio">
+                <input type="submit" value="Procurar domínio">
+            </form>
+        </section>
+        <section class="contact-container">
+            <h2>Fale com nossa equipe</h2>
+            <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato</p>
+            <form>
+               <input type="text" name="name" id="name" placeholder="Seu nome">
+               <input type="email" name="e-mail" id="e-mail" placeholder="Seu e-mail">
+               <textarea name="message" id="message" placeholder="Descreva o que você precisa para o seu projeto..."></textarea>
+               <input type="submit" value="Enviar"> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>DAS Host Services @ 2023</p>
+    </footer>
+   </div> 
+ </body>
+</html>
